@@ -1,15 +1,20 @@
 #include <stdio.h>
 
-int main() {
-	double x, y;
-	printf("Введите две координаты x y через пробел\n");
-    scanf("%lf %lf", &x, &y);
-
-    if (x >= -1 && x <= 1 && y >= -1 && y <= 1 && y >= -x) {
-        printf("YES\n");
-    } else {
-        printf("NO\n");
+void print(int n) {
+    int current = 1;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            printf("%d ", current);
+            current++;
+        }
+        printf("\n");
     }
+}
 
+int main() {
+    int n;
+    scanf("%d", &n);
+    print(n);
+    
     return 0;
 }
