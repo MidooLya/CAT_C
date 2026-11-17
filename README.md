@@ -187,66 +187,109 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 ## Ветки и Fast-Forward merge
 
+1. Создание и коммит greeting.txt
+<img width="653" height="279" alt="image" src="https://github.com/user-attachments/assets/a36a1998-c84d-44a6-b522-6617ec886c50" />
+
+2. Добавление текста и коммит:
+<img width="649" height="292" alt="image" src="https://github.com/user-attachments/assets/540567c7-e86e-4b0e-86d0-9fe4efd238b9" />
+
+3–4. Создание и переключение на ветку feature/uppercase:
+<img width="585" height="82" alt="image" src="https://github.com/user-attachments/assets/423357f9-42a5-4588-b151-f358a3758190" />
+
+5. Проверка статуса:
+<img width="531" height="132" alt="image" src="https://github.com/user-attachments/assets/cc8f20b2-4c4b-400e-b865-b8fb42b7f42f" />
+
+6–7. Изменение текста на верхний регистр и коммит:
+<img width="629" height="288" alt="image" src="https://github.com/user-attachments/assets/2c179526-affb-438e-a6bd-e2fdf4d60a21" />
+
+8–9. Просмотр веток и графа коммитов:
+<img width="1380" height="768" alt="image" src="https://github.com/user-attachments/assets/254b8c85-4d19-4392-bc13-5f5c291af0a9" />
+
+10–12. Возврат на ветку mybranch, проверка файла и сравнение веток:
+<img width="791" height="467" alt="image" src="https://github.com/user-attachments/assets/bcc3c021-abbf-4300-98a3-69ee054a1a80" />
+
+13–14. Слияние веток (ff-merge) и проверка файла:
+<img width="612" height="241" alt="image" src="https://github.com/user-attachments/assets/5cf05ecf-7897-4b51-a9ad-55508c60914f" />
+
+15. Удаление ветки feature/uppercase:
+<img width="629" height="91" alt="image" src="https://github.com/user-attachments/assets/4e198225-7187-4d8a-bf7c-c4d5f0bcd652" />
+
+16. Слияние mybranch в main:
+<img width="312" height="68" alt="image" src="https://github.com/user-attachments/assets/4eb235c5-db73-48ac-b938-78aab895e3f6" />
+
+17. Просмотр графа коммитов:
+<img width="1302" height="665" alt="image" src="https://github.com/user-attachments/assets/0e62a60f-d6d7-4549-9f12-df6d77e0fdab" />
+
+18–19. Отправка main и обновленного отчета README.md на GitHub:
+<img width="855" height="279" alt="image" src="https://github.com/user-attachments/assets/b6c4c486-e23a-4637-9ac6-a68d6d68f918" />
+
+# Задание на 5
+
+## Первый Merge Conflict (file.txt)
+1. 1. Создание ветки branch1 и переход на нее:
+<img width="458" height="95" alt="image" src="https://github.com/user-attachments/assets/fc88c1da-5212-4910-8809-b298e953222f" />
+
+   2-3. Создание file.txt и коммит:
+   <img width="753" height="314" alt="image" src="https://github.com/user-attachments/assets/0923f327-def0-4161-9692-a8673060e2fe" />
+
+   4–5. Переход на main, создание конфликтующего file.txt и коммит:
+   <img width="678" height="426" alt="image" src="https://github.com/user-attachments/assets/651ad07f-07c1-4d9f-b0d7-f2d9f23a9026" />
+
+2. Просмотр графа веток:
+<img width="1256" height="841" alt="image" src="https://github.com/user-attachments/assets/59f92388-230e-4f3e-9ebd-a066bf1f19c9" />
+
+3. Попытка слияния (вызовет конфликт):
+<img width="874" height="126" alt="image" src="https://github.com/user-attachments/assets/df2ae997-f7b5-4d22-b037-90b9ab7968eb" />
+
+4. Проверка статуса (покажет both added: file.txt):
+<img width="873" height="364" alt="image" src="https://github.com/user-attachments/assets/f1f1af1d-82b8-4275-ba03-a325ce4104a2" />
+
+5. Разрешение конфликта: удаление маркеров <<<<<<<, =======, >>>>>>>
+<img width="265" height="64" alt="image" src="https://github.com/user-attachments/assets/b9220585-5bf7-43de-8b5a-a184950e80f5" />
+
+<img width="1088" height="280" alt="image" src="https://github.com/user-attachments/assets/60314038-d3fa-4c5d-8e9c-cf90159bc19a" />
+<img width="523" height="183" alt="image" src="https://github.com/user-attachments/assets/fb0393c1-e0c2-44e0-9e1a-e5b5982c3bda" />
 
 
+<img width="1271" height="897" alt="image" src="https://github.com/user-attachments/assets/98216c98-b086-453e-9bb8-7d8ccbaa00e5" />
+<img width="912" height="280" alt="image" src="https://github.com/user-attachments/assets/317300d0-9bd3-451d-852d-7f9f06bc2689" />
+
+## Второй Merge Conflict (mergesort.py)
+
+1–2. Создание mergesort.py с кодом из base.py в ветке master и коммит:
+<img width="1085" height="169" alt="image" src="https://github.com/user-attachments/assets/da7f98de-da1a-4215-8888-28832eb7905d" />
+<img width="560" height="234" alt="image" src="https://github.com/user-attachments/assets/8da2e7be-6440-4e3d-b4fb-d1337eae9dc7" />
+
+3. Создание и переход на ветку Mergesort-Impl:
+<img width="550" height="75" alt="image" src="https://github.com/user-attachments/assets/a21e8780-4dd3-473a-9fe0-54bdeb1b662b" />
+
+4–5. Замена содержимого mergesort.py на код из righty.py и коммит:
+<img width="1129" height="903" alt="image" src="https://github.com/user-attachments/assets/038ecadc-1555-4153-b3a9-57a78f2b67a2" />
+<img width="670" height="262" alt="image" src="https://github.com/user-attachments/assets/8d9d6890-a2f8-468f-bdb8-3566ced1475e" />
+
+6-7. Переключение на main, замена содержимого mergesort.py на код из lefty.py и коммит:
+<img width="582" height="182" alt="image" src="https://github.com/user-attachments/assets/0d9462b0-5265-4887-b0a2-61b243ad87d6" />
+<img width="727" height="873" alt="image" src="https://github.com/user-attachments/assets/9aae3865-2489-4ced-9560-a27c547484eb" />
+
+<img width="574" height="166" alt="image" src="https://github.com/user-attachments/assets/a6fe6727-a269-4d5d-92c6-daf49bb32c98" />
+
+8–9. Просмотр истории и веток:
+
+<img width="887" height="870" alt="image" src="https://github.com/user-attachments/assets/38764fa8-511f-4df8-8227-7fe620849f5c" />
+
+10. Слияние Mergesort-Impl в main (конфликт в строках с left/right и fourth/last):
+<img width="885" height="121" alt="image" src="https://github.com/user-attachments/assets/1fe840a1-0235-467f-9eb1-6da77f4877ca" />
+
+11. Исправление конфликта в редакторе (удаление маркеров <<<<<<<, =======, >>>>>>> и выбор одного из вариантов кода), коммит и пуш:
+
+<img width="252" height="58" alt="image" src="https://github.com/user-attachments/assets/073c2998-9d69-4907-8039-1b7ccc5b58ec" />
+
+<img width="544" height="156" alt="image" src="https://github.com/user-attachments/assets/28fa5acb-fa90-424a-9b15-514cc0b3440c" />
 
 
+12. Финальное обновление отчета README.md со всеми скриншотами и отправка на GitHub:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+:3
 
 
 
