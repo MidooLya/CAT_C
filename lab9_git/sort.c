@@ -1,4 +1,5 @@
-cat << 'EOF' > sort.c
+#include <stdio.h>
+
 void bubble_sort(int arr[], int n) {
     for (int i = 0; i < n-1; i++) {
         for (int j = 0; j < n-i-1; j++) {
@@ -10,6 +11,9 @@ void bubble_sort(int arr[], int n) {
         }
     }
 }
-EOF
-// Коммент
-// Второй коммент
+
+int main() {
+    int a[] = {4, 2};
+    bubble_sort(a, 3);
+    return 0;
+}
