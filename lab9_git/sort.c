@@ -12,3 +12,4 @@ void bubble_sort(int arr[], int n) {
 }
 EOF
 // Коммент
+// Второй коммент
