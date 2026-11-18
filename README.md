@@ -123,7 +123,7 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
-# Задание на 4
+## Продолжение на 4
 
 1. Переключение на ветку mybranch:
 <img width="429" height="112" alt="image" src="https://github.com/user-attachments/assets/c7e77811-964e-42b2-9888-29b0c9f1153d" />
@@ -227,12 +227,15 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 ## Первый Merge Conflict (file.txt)
 1. 1. Создание ветки branch1 и переход на нее:
+      
 <img width="458" height="95" alt="image" src="https://github.com/user-attachments/assets/fc88c1da-5212-4910-8809-b298e953222f" />
 
    2-3. Создание file.txt и коммит:
+  
    <img width="753" height="314" alt="image" src="https://github.com/user-attachments/assets/0923f327-def0-4161-9692-a8673060e2fe" />
 
    4–5. Переход на main, создание конфликтующего file.txt и коммит:
+   
    <img width="678" height="426" alt="image" src="https://github.com/user-attachments/assets/651ad07f-07c1-4d9f-b0d7-f2d9f23a9026" />
 
 2. Просмотр графа веток:
@@ -284,6 +287,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 <img width="252" height="58" alt="image" src="https://github.com/user-attachments/assets/073c2998-9d69-4907-8039-1b7ccc5b58ec" />
 
+ <p >
 <img width="544" height="156" alt="image" src="https://github.com/user-attachments/assets/28fa5acb-fa90-424a-9b15-514cc0b3440c" />
 
 
